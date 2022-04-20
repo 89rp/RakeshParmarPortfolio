@@ -1,0 +1,15 @@
+// h1: 70px
+// h2: 60px
+// h3: 50px
+// h4: 40px
+// h5: 30px
+// p: 20px
+
+html {
+    font-size: 125%;
+}
+
+body {
+    @include lineLetter (28px, 1px);
+    @include font($poppins, $regular, $black);
+}
