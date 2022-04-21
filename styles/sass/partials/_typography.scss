@@ -32,7 +32,18 @@ body {
 
 nav {
 
-    a{
-        text-decoration: none;
+    p {
+        @include font($poppins, $semiBold, $black);
+        @include fontSize(25)
     }
+
+    .navLinks a{
+        @include fontSize(18);
+        @include font($poppins, $semiBold, $black);
+    }
+
+    .socials a {
+        color: $black
+    }
+
 }

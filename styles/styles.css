@@ -261,8 +261,22 @@ body {
   color: #FFF;
 }
 
-nav a {
-  text-decoration: none;
+nav p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #212529;
+  font-size: 25px;
+  font-size: 1.25rem;
+}
+nav .navLinks a {
+  font-size: 18px;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #212529;
+}
+nav .socials a {
+  color: #212529;
 }
 
 html,
@@ -285,6 +299,27 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.sectionHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionTitle {
+  display: inline;
+  background-color: #252f43;
+  color: white;
+  padding: 5px 10px;
 }
 
 .header {
@@ -318,6 +353,10 @@ ul {
   border: none;
 }
 
+nav {
+  text-transform: uppercase;
+  border-bottom: 1px solid grey;
+}
 nav .flexContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,7 +373,33 @@ nav ul {
       -ms-flex-align: center;
           align-items: center;
 }
-nav ul a {
+nav .navLinks a {
+  margin: 0 10px;
+  padding: 10px;
+  text-decoration: none;
+  position: relative;
+}
+nav .socials a {
   margin: 0 5px;
-  padding: 10px 5px;
+  padding: 5px;
+}
+
+.sectionHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
