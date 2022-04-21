@@ -1,8 +1,8 @@
-// h1: 70px
-// h2: 60px
-// h3: 50px
-// h4: 40px
-// h5: 30px
+// h1: 60px
+// h2: 55px
+// h3: 45px
+// h4: 35px
+// h5: 25px
 // p: 20px
 
 html {
@@ -10,6 +10,22 @@ html {
 }
 
 body {
-    @include lineLetter (28px, 1px);
     @include font($poppins, $regular, $black);
+}
+
+.header {
+
+    .textContainer {
+
+        text-align: center;
+
+        h1{
+            @include font($poppins, $semiBold, $white);
+            @include fontSize(65)
+        }
+
+        p{
+            @include font($poppins, $regular, $white);
+        }
+    }
 }
