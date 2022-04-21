@@ -21,7 +21,7 @@ body {
 
         h1{
             @include font($poppins, $semiBold, $white);
-            @include fontSize(65)
+            @include fontSize(60)
         }
 
         p{

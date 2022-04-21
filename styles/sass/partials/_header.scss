@@ -1,6 +1,6 @@
 .header {
     background-color: $blue;
-    height: 100vh;
+    height: 101vh;
 
     .flexContainer {
         display: flex;
@@ -8,8 +8,20 @@
         align-items: center;
     }
 
+    .imageContainer {
+        margin-top: 7.5%;
+        width: 30%;
+
+        img {
+            border-radius: 50%;
+            border: 10px solid $white;
+            width: 100%;
+        }
+    }
+
     button {
         padding: 15px 20px;
+        margin-top: 25px;
         border: none;
     }
 }

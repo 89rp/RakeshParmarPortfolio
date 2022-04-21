@@ -252,8 +252,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #FFF;
-  font-size: 65px;
-  font-size: 3.25rem;
+  font-size: 60px;
+  font-size: 3rem;
 }
 .header .textContainer p {
   font-family: "Poppins", sans-serif;
@@ -285,7 +285,7 @@ ul {
 
 .header {
   background-color: #252f43;
-  height: 100vh;
+  height: 101vh;
 }
 .header .flexContainer {
   display: -webkit-box;
@@ -299,7 +299,17 @@ ul {
       -ms-flex-align: center;
           align-items: center;
 }
+.header .imageContainer {
+  margin-top: 7.5%;
+  width: 30%;
+}
+.header .imageContainer img {
+  border-radius: 50%;
+  border: 10px solid #FFF;
+  width: 100%;
+}
 .header button {
   padding: 15px 20px;
+  margin-top: 25px;
   border: none;
 }
