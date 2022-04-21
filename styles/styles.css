@@ -261,6 +261,10 @@ body {
   color: #FFF;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -312,4 +316,25 @@ ul {
   padding: 15px 20px;
   margin-top: 25px;
   border: none;
+}
+
+nav .flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav ul a {
+  margin: 0 5px;
+  padding: 10px 5px;
 }
