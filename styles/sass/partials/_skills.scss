@@ -1,4 +1,27 @@
 .skills {
 
-    
+    background-color: $lightGrey;
+    padding: 75px 0px;
+
+    .topRow, .bottomRow {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        margin-top: 65px;
+
+        h3 {
+            margin: 0px;
+        }
+
+        .skillBox {
+
+            width: 20%;
+        }
+
+        i{
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+    }
+
 }

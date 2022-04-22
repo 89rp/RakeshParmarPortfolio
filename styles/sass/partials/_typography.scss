@@ -75,3 +75,10 @@ nav {
         @include font($poppins, $regular, $blue)
     }
 }
+
+.skills {
+
+    h3 {
+        @include font($poppins, $semiBold, $blue);
+    }
+}

@@ -306,6 +306,12 @@ nav .socials a {
   color: #252f43;
 }
 
+.skills h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #252f43;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -416,7 +422,7 @@ nav .socials a {
 }
 
 .about {
-  margin: 150px 0px;
+  margin: 125px 0px 75px 0px;
 }
 .about .aboutIntro .aboutName {
   border-bottom: 4px solid #45569f;
@@ -446,5 +452,29 @@ nav .socials a {
 .about .interests li i {
   font-size: 35px;
   font-size: 1.75rem;
+  margin-bottom: 15px;
+}
+
+.skills {
+  background-color: #f8f9fa;
+  padding: 75px 0px;
+}
+.skills .topRow, .skills .bottomRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 65px;
+}
+.skills .topRow h3, .skills .bottomRow h3 {
+  margin: 0px;
+}
+.skills .topRow .skillBox, .skills .bottomRow .skillBox {
+  width: 20%;
+}
+.skills .topRow i, .skills .bottomRow i {
+  font-size: 50px;
   margin-bottom: 15px;
 }
