@@ -21,7 +21,8 @@ body {
 
         h1{
             @include font($poppins, $semiBold, $white);
-            @include fontSize(60)
+            @include fontSize(60);
+            text-transform: uppercase
         }
 
         p{
@@ -33,17 +34,44 @@ body {
 nav {
 
     p {
-        @include font($poppins, $semiBold, $black);
+        @include font($poppins, $semiBold, $blue);
         @include fontSize(25)
     }
 
     .navLinks a{
         @include fontSize(18);
-        @include font($poppins, $semiBold, $black);
+        @include font($poppins, $semiBold, $blue);
     }
 
     .socials a {
-        color: $black
+        color: $blue
     }
 
+}
+
+.sectionHeader {
+
+    h2 {
+
+        @include fontSize(50);
+        @include font($poppins, $semiBold, $blue);
+    }
+
+}
+
+.about{
+
+    
+    .aboutIntro {
+        @include fontSize(30);
+        @include font($poppins, $regular, $blue);
+
+        .aboutName {
+            @include font($poppins, $bold, $blue)
+        }
+    }
+
+    .interests {
+        @include font($poppins, $regular, $blue)
+    }
 }

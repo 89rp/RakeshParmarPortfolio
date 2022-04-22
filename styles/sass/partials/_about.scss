@@ -1,11 +1,38 @@
-.sectionHeader {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+.about{
 
-.icons {
-    display: flex;
-    justify-content: space-evenly;
-}
+    margin: 150px 0px;
 
+    .aboutIntro {
+
+        .aboutName {
+            border-bottom: 4px solid $lightBlue;
+        }
+    }
+    
+    .aboutText {
+
+        margin-bottom: 50px;
+    }
+    
+    .interests {
+
+        .icons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        li  {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 20%;
+
+            i {
+                @include fontSize(35);
+                margin-bottom: 15px;
+
+            }
+
+        }
+    }
+}

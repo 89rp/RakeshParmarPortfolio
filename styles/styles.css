@@ -254,6 +254,7 @@ body {
   color: #FFF;
   font-size: 60px;
   font-size: 3rem;
+  text-transform: uppercase;
 }
 .header .textContainer p {
   font-family: "Poppins", sans-serif;
@@ -264,7 +265,7 @@ body {
 nav p {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #212529;
+  color: #252f43;
   font-size: 25px;
   font-size: 1.25rem;
 }
@@ -273,10 +274,36 @@ nav .navLinks a {
   font-size: 0.9rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #212529;
+  color: #252f43;
 }
 nav .socials a {
-  color: #212529;
+  color: #252f43;
+}
+
+.sectionHeader h2 {
+  font-size: 50px;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #252f43;
+}
+
+.about .aboutIntro {
+  font-size: 30px;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #252f43;
+}
+.about .aboutIntro .aboutName {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #252f43;
+}
+.about .interests {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #252f43;
 }
 
 html,
@@ -314,12 +341,16 @@ ul {
       -ms-flex-align: center;
           align-items: center;
 }
+.sectionHeader h2 {
+  margin: 20px 0px;
+}
 
 .sectionTitle {
   display: inline;
   background-color: #252f43;
   color: white;
-  padding: 5px 10px;
+  padding: 4px 10px 2.5px 10px;
+  margin: 0px;
 }
 
 .header {
@@ -384,7 +415,24 @@ nav .socials a {
   padding: 5px;
 }
 
-.sectionHeader {
+.about {
+  margin: 150px 0px;
+}
+.about .aboutIntro .aboutName {
+  border-bottom: 4px solid #45569f;
+}
+.about .aboutText {
+  margin-bottom: 50px;
+}
+.about .interests .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.about .interests li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -393,13 +441,10 @@ nav .socials a {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  width: 20%;
 }
-
-.icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+.about .interests li i {
+  font-size: 35px;
+  font-size: 1.75rem;
+  margin-bottom: 15px;
 }
