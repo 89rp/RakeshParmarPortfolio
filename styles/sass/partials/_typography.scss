@@ -89,3 +89,21 @@ nav {
         text-align: center;
     }
 }
+
+.resume {
+    h3 {
+        @include fontSize(45);
+        @include font($poppins, $semiBold, $blue);
+    }
+
+    h4 {
+        @include fontSize(30);
+        @include font($poppins, $semiBold, $blue);
+    }
+
+    h5 {
+        @include fontSize(20);
+        @include font($poppins, $regular, $blue);
+    }
+
+}
