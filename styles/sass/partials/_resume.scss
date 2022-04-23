@@ -1,0 +1,21 @@
+.resume {
+
+    .flexContainer {
+        display: flex;
+    }
+
+    .border {
+        border-left: 3px solid $lightBlue;
+    }
+
+    .listings {
+        margin-left: 15px;
+        border-bottom: 1px solid $darkGrey;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h4, h5 {
+        margin: 0px 0px 15px 0px;
+    }
+}
