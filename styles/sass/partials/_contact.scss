@@ -1,0 +1,17 @@
+.contact {
+    .flexContainer {
+        display: flex;
+        justify-content: space-around;
+        // text-align: center;
+
+        .contactText {
+            width: 33%;
+        }            
+        
+        .contactInfo, .links {
+            margin: 0px 60px;
+            }
+    }
+
+
+}
