@@ -1,5 +1,8 @@
 .resume {
 
+    background-color: $lightGrey;
+    padding: 75px 0px;
+
     .flexContainer {
         display: flex;
     }
@@ -10,12 +13,29 @@
 
     .listings {
         margin-left: 15px;
-        border-bottom: 1px solid $darkGrey;
         display: flex;
         flex-direction: column;
+        
+        &:nth-child(1) {
+            border-bottom: 1px solid $darkGrey;
+            width: 92%;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
     }
     
     h4, h5 {
         margin: 0px 0px 15px 0px;
+    }
+
+    p {
+        margin: 0px;
+    }
+
+    button {
+        margin-left: 40%;
+        margin-top: 50px;
+        padding: 15px 20px;
+        border: none;
     }
 }

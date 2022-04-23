@@ -504,6 +504,10 @@ nav .socials a {
   width: 100%;
 }
 
+.resume {
+  background-color: #f8f9fa;
+  padding: 75px 0px;
+}
 .resume .flexContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -514,7 +518,6 @@ nav .socials a {
 }
 .resume .listings {
   margin-left: 15px;
-  border-bottom: 1px solid #5c6267;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -523,6 +526,21 @@ nav .socials a {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.resume .listings:nth-child(1) {
+  border-bottom: 1px solid #5c6267;
+  width: 92%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
 .resume h4, .resume h5 {
   margin: 0px 0px 15px 0px;
+}
+.resume p {
+  margin: 0px;
+}
+.resume button {
+  margin-left: 40%;
+  margin-top: 50px;
+  padding: 15px 20px;
+  border: none;
 }
