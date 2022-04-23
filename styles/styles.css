@@ -312,6 +312,10 @@ nav .socials a {
   color: #252f43;
 }
 
+.portfolio .gallery {
+  text-align: center;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -477,4 +481,25 @@ nav .socials a {
 .skills .topRow i, .skills .bottomRow i {
   font-size: 50px;
   margin-bottom: 15px;
+}
+
+.portfolio {
+  padding: 75px 0px;
+}
+.portfolio .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.portfolio .project {
+  margin: 20px;
+  width: 40%;
+}
+.portfolio .project img {
+  width: 100%;
 }
