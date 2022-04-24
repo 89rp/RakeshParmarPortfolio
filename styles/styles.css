@@ -275,6 +275,7 @@ nav .navLinks a {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #252f43;
+  text-decoration: none;
 }
 nav .socials a {
   color: #252f43;
@@ -336,6 +337,18 @@ nav .socials a {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #252f43;
+}
+
+.contact h4 {
+  font-size: 25px;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #252f43;
+}
+.contact a {
+  color: #212529;
+  text-decoration: none;
 }
 
 html {
@@ -443,7 +456,6 @@ nav ul {
 nav .navLinks a {
   margin: 0 10px;
   padding: 10px;
-  text-decoration: none;
   position: relative;
 }
 nav .socials a {
@@ -586,4 +598,14 @@ nav .socials a {
 }
 .contact .flexContainer .contactInfo, .contact .flexContainer .links {
   margin: 0px 60px;
+}
+.contact .flexContainer li {
+  margin: 10px 0px;
+}
+.contact .flexContainer li a {
+  padding: 10px 0px;
+}
+.contact .flexContainer i {
+  margin: 5px 10px 5px 0px;
+  font-size: 30px;
 }
