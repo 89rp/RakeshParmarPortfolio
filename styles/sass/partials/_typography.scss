@@ -89,9 +89,26 @@ nav {
     .gallery {
         text-align: center;
     }
+
+    .textOverlay {
+
+        a {
+            text-decoration: none;
+        }
+
+
+        h3 {
+            @include font($poppins, $semiBold, $white);
+        }
+
+        p {
+            @include font($poppins, $regular, $white);
+        }
+    }
 }
 
 .resume {
+
     h3 {
         @include fontSize(45);
         @include font($poppins, $semiBold, $blue);

@@ -316,6 +316,19 @@ nav .socials a {
 .portfolio .gallery {
   text-align: center;
 }
+.portfolio .textOverlay a {
+  text-decoration: none;
+}
+.portfolio .textOverlay h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #FFF;
+}
+.portfolio .textOverlay p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+}
 
 .resume h3 {
   font-size: 45px;
@@ -537,9 +550,47 @@ nav .socials a {
 .portfolio .project {
   margin: 20px;
   width: 40%;
+  position: relative;
 }
 .portfolio .project img {
   width: 100%;
+  display: block;
+}
+.portfolio .project .textOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.portfolio .project .textOverlay > * {
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.portfolio .project .textOverlay:hover, .portfolio .project .textOverlay:focus {
+  opacity: 1;
+}
+.portfolio .project .textOverlay:hover > *, .portfolio .project .textOverlay:focus > * {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .resume {
