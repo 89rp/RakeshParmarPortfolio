@@ -665,6 +665,9 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
 }
+.portfolio .project .textOverlay p {
+  padding: 0px 35px;
+}
 .portfolio .project .textOverlay > * {
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
