@@ -6,7 +6,7 @@
     .topRow, .bottomRow {
         display: flex;
         text-align: center;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 65px;
 
         h3 {
@@ -14,14 +14,51 @@
         }
 
         .skillBox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 30%;
+            margin: 0px 5px;
+            transition: all 0.5s ease-in-out;
 
-            width: 20%;
+
+
+            &:hover, &:focus {
+                border: 0.5px solid $blue;
+                box-shadow: 15px 15px 0px $blue;
+
+                .html {
+                    color: #f06529
+                }
+
+                .css {
+                    color: #2965f1
+                }
+
+                .js {
+                    color: #f0db4f
+                }
+
+                .sass {
+                    color: #cc6699
+                }
+
+                .react {
+                    color: #61DBFB
+                }
+
+            }
+
+            i{
+                font-size: 50px;
+                margin-bottom: 15px;
+            }
+
+            .team {
+                padding-top: 20px; //slight position issue with icon
+            }
         }
 
-        i{
-            font-size: 50px;
-            margin-bottom: 15px;
-        }
     }
 
 }
