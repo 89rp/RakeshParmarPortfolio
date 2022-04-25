@@ -417,7 +417,8 @@ ul {
 
 .header {
   background-color: #252f43;
-  height: 101vh;
+  height: 100vh;
+  margin-top: 75px;
 }
 .header .flexContainer {
   display: -webkit-box;
@@ -447,8 +448,14 @@ ul {
 }
 
 nav {
+  background-color: #FFF;
   text-transform: uppercase;
   border-bottom: 1px solid grey;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  z-index: 1;
 }
 nav .flexContainer {
   display: -webkit-box;
@@ -457,6 +464,10 @@ nav .flexContainer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 nav ul {
   display: -webkit-box;
@@ -471,13 +482,34 @@ nav .navLinks a {
   padding: 10px;
   position: relative;
 }
+nav .navLinks a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #45569f;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  transition: -webkit-transform 0.5s ease-in;
+  transition: transform 0.5s ease-in;
+  transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+}
+nav .navLinks a:hover::before, nav .navLinks a:focus::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
 nav .socials a {
   margin: 0 5px;
   padding: 5px;
 }
 
 .about {
-  margin: 125px 0px 75px 0px;
+  margin: 75px 0px 75px 0px;
+  padding: 75px 0px 75px 0px;
 }
 .about .aboutIntro .aboutName {
   border-bottom: 4px solid #45569f;

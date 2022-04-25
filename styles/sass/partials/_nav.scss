@@ -1,11 +1,18 @@
 nav {
-
+    background-color: $white;
     text-transform: uppercase;
     border-bottom: 1px solid grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    z-index: 1;
+
 
     .flexContainer {
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
     }
 
     ul {
@@ -20,6 +27,30 @@ nav {
             margin: 0 10px;
             padding: 10px;
             position: relative;
+            
+            &::before {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 100%;
+                height: 2px;
+                bottom: 0;
+                left: 0;
+                background-color: $lightBlue;
+                transform: scaleX(0);
+                transition: transform 0.5s ease-in;
+
+            }
+
+            &:hover, &:focus {
+
+                &::before {
+                    transform: scaleX(1);
+                }
+        }
+
+
+
         }
     }
 

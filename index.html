@@ -9,331 +9,345 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9519f6733b.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </head>
 
-<header class="header" id="home">
-    <div class="wrapper">
-        <div class="flexContainer">
-            <div class="imageContainer">
-                <img src="https://i.picsum.photos/id/938/300/300.jpg?hmac=h9qBiSu0sd2IYB3Y7bs6kIHf3Bkv95IgV0gEImfz0kM"
-                    alt="placeholder">
-            </div>
-            <!-- .imageContainer END -->
-            <div class="textContainer">
-                <h1>Hello! I'm Rakesh Parmar and I'm a Web Developer.</h1>
-                <p>based in Brampton, Ontario, CA.</p>
-            </div>
-            <!-- .textContainer END -->
-            <a href="#about"><button>Get to Know Me!</button></a>
-        </div>
-        <!-- .flexContainer END -->
-    </div>
-    <!-- .wrapper END -->
-</header>
-
 <body>
-    <nav>
+
+    <header class="header" id="home">
+        
         <div class="wrapper">
             <div class="flexContainer">
-                <p class="logo">Rakesh</p>
-                <ul class="navLinks">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <ul class="socials">
-                    <!-- add in icons from font-awesome -->
-                    <li><a href="#instagram"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#twitter"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="#linkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
-                </ul>
+                <div class="imageContainer">
+                    <img src="https://i.picsum.photos/id/938/300/300.jpg?hmac=h9qBiSu0sd2IYB3Y7bs6kIHf3Bkv95IgV0gEImfz0kM"
+                        alt="placeholder">
+                </div>
+                <!-- .imageContainer END -->
+                <div class="textContainer">
+                    <h1>Hello! I'm Rakesh Parmar and I'm a Web Developer.</h1>
+                    <p>based in Brampton, Ontario, CA.</p>
+                </div>
+                <!-- .textContainer END -->
+                <a href="#about"><button>Get to Know Me!</button></a>
             </div>
             <!-- .flexContainer END -->
         </div>
-        <!--.wrapper END-->
-    </nav>
+        <!-- .wrapper END -->
+    </header>
 
-    <section class="about" id="about">
-        <div class="wrapper">
+    <main>
 
-            <div class="sectionHeader">
-                <p class="sectionTitle">About Me</p>
-                <h2>A Little About Me</h2>
-            </div>
-
-            <div class="aboutText">
-                <p class="aboutIntro">Hi, I'm <span class="aboutName">Rakesh Parmar</span></p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quis quae maxime, ea voluptas quia.
-                    Aliquid provident quidem cum, possimus architecto dolore facere rerum perferendis iste assumenda id
-                    nemo! Veniam?
-                    In at iusto magnam nam debitis possimus nulla deleniti tempora odio placeat quos itaque cupiditate
-                    porro officia sint asperiores, repudiandae blanditiis aliquam voluptate labore facere natus corporis
-                    soluta perferendis! Dolores?</p>
-            </div>
-            <!--.aboutText END-->
-            <div class="interests">
-                <!-- add in icons from font-awesome -->
-                <ul class="icons">
-                    <li><i class="fa-solid fa-film"></i>Movies</li>
-                    <li><i class="fa-solid fa-tv"></i>TV Shows</li>
-                    <li><i class="fa-solid fa-football"></i>Sports</li>
-                    <li><i class="fa-solid fa-gamepad"></i>Video Games</li>
-                    <li><i class="fa-solid fa-record-vinyl"></i>Hip-Hop & R&B</li>
-                </ul>
-            </div>
-            <!--.interests END-->
-        </div>
-        <!--.wrapper END-->
-    </section>
-
-    <section class="skills" id="skills">
-        <div class="wrapper">
-
-            <div class="sectionHeader">
-                <p class="sectionTitle">Skills</p>
-                <h2>What I Bring to the Table</h2>
-            </div>
-
-            <div class="topRow">
-
-                <div class="skillBox">
-                    <i class="fa-brands fa-html5"></i>
-                    <h3>HTML5</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam quos animi,
-                        iureassumenda</p>
-                </div>
-
-                <div class="skillBox">
-                    <i class="fa-brands fa-css3"></i>
-                    <h3>CSS3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequuntur qui exercitationem.
-                    </p>
-                </div>
-
-                <div class="skillBox">
-                    <i class="fa-brands fa-js"></i>
-                    <h3>JavaScript</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati itaque laboriosam deserunt
-                        officia.</p>
-                </div>
-
-            </div>
-            <!--.topRow END-->
-
-            <div class="bottomRow">
-
-                <div class="skillBox">
-                    <i class="fa-brands fa-sass"></i>
-                    <h3>Sass</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam quos animi,</p>
-                </div>
-
-                <div class="skillBox">
-                    <i class="fa-brands fa-react"></i>
-                    <h3>React</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequuntur qui exercitationem,
-                    </p>
-                </div>
-
-                <div class="skillBox">
-                    <i class="fa-solid fa-people-group"></i>
-                    <h3>Team Player</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati itaque laboriosam deserunt
-                        officia,</p>
-                </div>
-
-            </div>
-            <!--.bottomRow END-->
-        </div>
-        <!--.wrapper END-->
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <div class="wrapper">
-
-            <div class="sectionHeader">
-                <p class="sectionTitle">Portfolio</p>
-                <h2>Some of the Work I've Done</h2>
-            </div>
-
-            <div class="gallery">
-
-                <!--Credit for the overlay effect: https://codepen.io/ArnaudBalland/pen/vGZKLr-->
-
-                <div class="project">
-                    <a href="">
-                        <div class="projectImage">
-                            <img src="https://picsum.photos/300/300?random=1" alt="placeholder">
-                        </div>
-                        <div class="textOverlay">
-                            <h3 class="overlayTitle">Project Name</h3>
-                            <p class="overlayDesc">Breif description of project</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="project">
-                    <a href="">
-                        <div class="projectImage">
-                            <img src="https://picsum.photos/300/300?random=2" alt="placeholder">
-                        </div>
-                        <div class="textOverlay">
-                            <h3 class="overlayTitle">Project Name</h3>
-                            <p class="overlayDesc">Breif description of project</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="project">
-                    <a href="">
-                        <div class="projectImage">
-                            <img src="https://picsum.photos/300/300?random=3" alt="placeholder">
-                        </div>
-                        <div class="textOverlay">
-                            <h3 class="overlayTitle">Project Name</h3>
-                            <p class="overlayDesc">Breif description of project</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="project">
-                    <a href="">
-                        <div class="projectImage">
-                            <img src="https://picsum.photos/300/300?random=4" alt="placeholder">
-                        </div>
-                        <div class="textOverlay">
-                            <h3 class="overlayTitle">Project Name</h3>
-                            <p class="overlayDesc">Breif description of project</p>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-            <!--.gallery END-->
-
-        </div>
-        <!--.wrapper END-->
-    </section>
-
-    <section class="resume" id="resume">
-        <div class="wrapper">
-
-            <div class="sectionHeader">
-                <p class="sectionTitle">Resume</p>
-                <h2>A Summary of My Resume</h2>
-            </div>
-
-            <div class="flexContainer">
-
-                <div class="education">
-
-                    <h3>Education</h3>
-
-                    <div class="border">
-
-
-                        <div class="listings">
-                            <h4 class="listingTitle">Education Title</h4>
-                            <h5 class="listingLocation">Education Location</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae facere quo recusandae
-                                aperiam
-                                atque ipsam aspernatur vel, repudiandae consequuntur animi quas in enim qui culpa
-                                molestias
-                                harum dolorem beatae rerum!</p>
-                        </div>
-
-                        <div class="listings">
-                            <h4 class="listingTitle">Education Title</h4>
-                            <h5 class="listingLocation">Education Location</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae facere quo recusandae
-                                aperiam
-                                atque ipsam aspernatur vel, repudiandae consequuntur animi quas in enim qui culpa
-                                molestias
-                                harum dolorem beatae rerum!</p>
-                        </div>
-
-                    </div>
-                    <!-- .border END -->
-                </div>
-                <!--.education END-->
-
-                <div class="experience">
-
-                    <h3>Experience</h3>
-
-                    <div class="border">
-
-                        <div class="listings">
-                            <h4 class="listingTitle">Experience Title</h4>
-                            <h5 class="listingLocation">Experience Location</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae facere quo recusandae
-                                aperiam
-                                atque ipsam aspernatur vel, repudiandae consequuntur animi quas in enim qui culpa
-                                molestias
-                                harum dolorem beatae rerum!</p>
-                        </div>
-
-                        <div class="listings">
-                            <h4 class="listingTitle">Experience Title</h4>
-                            <h5 class="listingLocation">Experience Location</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae facere quo recusandae
-                                aperiam
-                                atque ipsam aspernatur vel, repudiandae consequuntur animi quas in enim qui culpa
-                                molestias
-                                harum dolorem beatae rerum!</p>
-                        </div>
-
-                    </div>
-                    <!-- .border END -->
-                </div>
-                <!--.education END-->
-            </div>
-            <!--.flexContainer END-->
-            <button>Download Resume</button>
-        </div>
-        <!--.wrapper END-->
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="wrapper">
-
-            <div class="flexContainer">
-
-                <div class="contactText">
-                    <h4>Give me a Shout!</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid in architecto quisquam tempore,
-                        nulla modi suscipit? Veritatis eum nostrum iste itaque officiis! Corrupti eius esse delectus
-                        maxime blanditiis rem quia.</p>
-                    <a href="">
-                        <p><i class="fa-regular fa-calendar-check"></i></i>Book a time on my Calendly</p>
-                    </a>
-                </div>
-
-                <div class="contactInfo">
-                    <h4>Email & Phone</h4>
-                    <ul>
-                        <li><i class="fa-solid fa-at"></i>rakp.8989@gmail.com</li>
-                        <li><i class="fa-solid fa-mobile-button"></i>416-839-2553</li>
+        <nav>
+            <div class="wrapper">
+                <div class="flexContainer">
+                    <p class="logo">Rakesh</p>
+                    <ul class="navLinks">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="socials">
+                        <!-- add in icons from font-awesome -->
+                        <li><a href="#instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#linkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
                     </ul>
                 </div>
+                <!-- .flexContainer END -->
+            </div>
+            <!--.wrapper END-->
+        </nav>
 
-                <div class="links">
-                    <h4>My Links</h4>
-                    <ul>
-                        <li><a href=""><i class="fa-brands fa-github"></i>GitHub</a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                        <li><a href=""><i class="fa-brands fa-twitter"></i>Twitter</a></li>
-                    </ul>
+
+        <section class="about" id="about">
+            <div class="wrapper">
+
+                <div class="sectionHeader">
+                    <p class="sectionTitle">About Me</p>
+                    <h2>A Little About Me</h2>
                 </div>
 
+                <div class="aboutText">
+                    <p class="aboutIntro">Hi, I'm <span class="aboutName">Rakesh Parmar</span></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quis quae maxime, ea voluptas
+                        quia.
+                        Aliquid provident quidem cum, possimus architecto dolore facere rerum perferendis iste assumenda
+                        id
+                        nemo! Veniam?
+                        In at iusto magnam nam debitis possimus nulla deleniti tempora odio placeat quos itaque
+                        cupiditate
+                        porro officia sint asperiores, repudiandae blanditiis aliquam voluptate labore facere natus
+                        corporis
+                        soluta perferendis! Dolores?</p>
+                </div>
+                <!--.aboutText END-->
+                <div class="interests">
+                    <!-- add in icons from font-awesome -->
+                    <ul class="icons">
+                        <li><i class="fa-solid fa-film"></i>Movies</li>
+                        <li><i class="fa-solid fa-tv"></i>TV Shows</li>
+                        <li><i class="fa-solid fa-football"></i>Sports</li>
+                        <li><i class="fa-solid fa-gamepad"></i>Video Games</li>
+                        <li><i class="fa-solid fa-record-vinyl"></i>Hip-Hop & R&B</li>
+                    </ul>
+                </div>
+                <!--.interests END-->
             </div>
-            <!--.flexContainer END-->
-        </div>
-        <!--.wrapper END-->
-    </section>
+            <!--.wrapper END-->
+        </section>
 
+        <section class="skills" id="skills">
+            <div class="wrapper">
+
+                <div class="sectionHeader">
+                    <p class="sectionTitle">Skills</p>
+                    <h2>What I Bring to the Table</h2>
+                </div>
+
+                <div class="topRow">
+
+                    <div class="skillBox">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam quos animi,
+                            iureassumenda</p>
+                    </div>
+
+                    <div class="skillBox">
+                        <i class="fa-brands fa-css3"></i>
+                        <h3>CSS3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequuntur qui
+                            exercitationem.
+                        </p>
+                    </div>
+
+                    <div class="skillBox">
+                        <i class="fa-brands fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati itaque laboriosam deserunt
+                            officia.</p>
+                    </div>
+
+                </div>
+                <!--.topRow END-->
+
+                <div class="bottomRow">
+
+                    <div class="skillBox">
+                        <i class="fa-brands fa-sass"></i>
+                        <h3>Sass</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam quos animi,</p>
+                    </div>
+
+                    <div class="skillBox">
+                        <i class="fa-brands fa-react"></i>
+                        <h3>React</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequuntur qui
+                            exercitationem,
+                        </p>
+                    </div>
+
+                    <div class="skillBox">
+                        <i class="fa-solid fa-people-group"></i>
+                        <h3>Team Player</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati itaque laboriosam deserunt
+                            officia,</p>
+                    </div>
+
+                </div>
+                <!--.bottomRow END-->
+            </div>
+            <!--.wrapper END-->
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="wrapper">
+
+                <div class="sectionHeader">
+                    <p class="sectionTitle">Portfolio</p>
+                    <h2>Some of the Work I've Done</h2>
+                </div>
+
+                <div class="gallery">
+
+                    <!--Credit for the overlay effect: https://codepen.io/ArnaudBalland/pen/vGZKLr-->
+
+                    <div class="project">
+                        <a href="">
+                            <div class="projectImage">
+                                <img src="https://picsum.photos/300/300?random=1" alt="placeholder">
+                            </div>
+                            <div class="textOverlay">
+                                <h3 class="overlayTitle">Project Name</h3>
+                                <p class="overlayDesc">Breif description of project</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project">
+                        <a href="">
+                            <div class="projectImage">
+                                <img src="https://picsum.photos/300/300?random=2" alt="placeholder">
+                            </div>
+                            <div class="textOverlay">
+                                <h3 class="overlayTitle">Project Name</h3>
+                                <p class="overlayDesc">Breif description of project</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project">
+                        <a href="">
+                            <div class="projectImage">
+                                <img src="https://picsum.photos/300/300?random=3" alt="placeholder">
+                            </div>
+                            <div class="textOverlay">
+                                <h3 class="overlayTitle">Project Name</h3>
+                                <p class="overlayDesc">Breif description of project</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project">
+                        <a href="">
+                            <div class="projectImage">
+                                <img src="https://picsum.photos/300/300?random=4" alt="placeholder">
+                            </div>
+                            <div class="textOverlay">
+                                <h3 class="overlayTitle">Project Name</h3>
+                                <p class="overlayDesc">Breif description of project</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--.gallery END-->
+
+            </div>
+            <!--.wrapper END-->
+        </section>
+
+        <section class="resume" id="resume">
+            <div class="wrapper">
+
+                <div class="sectionHeader">
+                    <p class="sectionTitle">Resume</p>
+                    <h2>A Summary of My Resume</h2>
+                </div>
+
+                <div class="flexContainer">
+
+                    <div class="education">
+
+                        <h3>Education</h3>
+
+                        <div class="border">
+
+
+                            <div class="listings">
+                                <h4 class="listingTitle">Education Title</h4>
+                                <h5 class="listingLocation">Education Location</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae facere quo recusandae
+                                    aperiam
+                                    atque ipsam aspernatur vel, repudiandae consequuntur animi quas in enim qui culpa
+                                    molestias
+                                    harum dolorem beatae rerum!</p>
+                            </div>
+
+                            <div class="listings">
+                                <h4 class="listingTitle">Education Title</h4>
+                                <h5 class="listingLocation">Education Location</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae facere quo recusandae
+                                    aperiam
+                                    atque ipsam aspernatur vel, repudiandae consequuntur animi quas in enim qui culpa
+                                    molestias
+                                    harum dolorem beatae rerum!</p>
+                            </div>
+
+                        </div>
+                        <!-- .border END -->
+                    </div>
+                    <!--.education END-->
+
+                    <div class="experience">
+
+                        <h3>Experience</h3>
+
+                        <div class="border">
+
+                            <div class="listings">
+                                <h4 class="listingTitle">Experience Title</h4>
+                                <h5 class="listingLocation">Experience Location</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae facere quo recusandae
+                                    aperiam
+                                    atque ipsam aspernatur vel, repudiandae consequuntur animi quas in enim qui culpa
+                                    molestias
+                                    harum dolorem beatae rerum!</p>
+                            </div>
+
+                            <div class="listings">
+                                <h4 class="listingTitle">Experience Title</h4>
+                                <h5 class="listingLocation">Experience Location</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae facere quo recusandae
+                                    aperiam
+                                    atque ipsam aspernatur vel, repudiandae consequuntur animi quas in enim qui culpa
+                                    molestias
+                                    harum dolorem beatae rerum!</p>
+                            </div>
+
+                        </div>
+                        <!-- .border END -->
+                    </div>
+                    <!--.education END-->
+                </div>
+                <!--.flexContainer END-->
+                <button>Download Resume</button>
+            </div>
+            <!--.wrapper END-->
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="wrapper">
+
+                <div class="flexContainer">
+
+                    <div class="contactText">
+                        <h4>Give me a Shout!</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid in architecto quisquam
+                            tempore,
+                            nulla modi suscipit? Veritatis eum nostrum iste itaque officiis! Corrupti eius esse delectus
+                            maxime blanditiis rem quia.</p>
+                        <a href="">
+                            <p><i class="fa-regular fa-calendar-check"></i></i>Book a time on my Calendly</p>
+                        </a>
+                    </div>
+
+                    <div class="contactInfo">
+                        <h4>Email & Phone</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-at"></i>rakp.8989@gmail.com</li>
+                            <li><i class="fa-solid fa-mobile-button"></i>416-839-2553</li>
+                        </ul>
+                    </div>
+
+                    <div class="links">
+                        <h4>My Links</h4>
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-github"></i>GitHub</a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!--.flexContainer END-->
+            </div>
+            <!--.wrapper END-->
+        </section>
+
+    </main>
 </body>
