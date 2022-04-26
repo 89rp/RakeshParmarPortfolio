@@ -134,6 +134,10 @@ nav {
         @include font($poppins, $regular, $blue);
     }
 
+    p {
+        line-height: 2rem;
+    }
+
     button {
         color: $white;
         text-transform: uppercase;

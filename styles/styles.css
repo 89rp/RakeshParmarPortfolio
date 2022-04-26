@@ -361,6 +361,9 @@ nav .socials a {
   font-weight: 400;
   color: #252f43;
 }
+.resume p {
+  line-height: 2rem;
+}
 .resume button {
   color: #FFF;
   text-transform: uppercase;
