@@ -803,6 +803,9 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   }
 }
 @media (max-width: 900px) {
+  .header .imageContainer {
+    width: 50%;
+  }
   .header .imageContainer img {
     border: 8px solid white;
   }
@@ -863,5 +866,23 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   .contact .flexContainer .contactText, .contact .flexContainer .contactInfo, .contact .flexContainer .links {
     width: 100%;
     text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .header .textContainer h1 {
+    font-size: 50px;
+    font-size: 2.5rem;
+  }
+
+  .skills .topRow .skillBox, .skills .bottomRow .skillBox {
+    width: 60%;
+  }
+
+  .portfolio .project .textOverlay h3 {
+    font-size: 20px;
+    font-size: 1rem;
+  }
+  .portfolio .project .textOverlay p {
+    padding: 0px;
   }
 }

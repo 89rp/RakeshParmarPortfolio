@@ -34,6 +34,8 @@
 
         .imageContainer {
 
+            width: 50%;
+
             img {
                 border: 8px solid white;
             }
@@ -94,6 +96,47 @@
             .contactText, .contactInfo, .links {
                 width: 100%;
                 text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+
+    .header {
+
+        .textContainer {
+
+            h1 {
+                @include fontSize(50);
+            }
+        }
+    }
+
+    .skills {
+
+        .topRow, .bottomRow {
+
+            
+            .skillBox {
+                width: 60%;
+            }
+        }
+    }
+
+    .portfolio{
+
+        .project {
+
+            .textOverlay{
+
+                h3 {
+                    @include fontSize(20)
+                }
+                
+                p {
+                    padding: 0px;
+                }
             }
         }
     }
