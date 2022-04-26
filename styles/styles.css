@@ -415,38 +415,6 @@ ul {
   margin: 0px;
 }
 
-.header {
-  background-color: #252f43;
-  height: 100vh;
-  margin-top: 75px;
-}
-.header .flexContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.header .imageContainer {
-  margin-top: 7.5%;
-  width: 30%;
-}
-.header .imageContainer img {
-  border-radius: 50%;
-  border: 10px solid #FFF;
-  width: 100%;
-}
-.header button {
-  padding: 15px 20px;
-  margin-top: 25px;
-  border: none;
-}
-
 nav {
   background-color: #FFF;
   text-transform: uppercase;
@@ -502,6 +470,18 @@ nav .navLinks a:hover::before, nav .navLinks a:focus::before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
+nav .hamburger {
+  display: none;
+}
+nav .hamburger .bar {
+  display: block;
+  width: 50px;
+  border-radius: 50px;
+  height: 4px;
+  margin: 4px 0px;
+  background-color: #252f43;
+  color: #FFF;
+}
 nav .socials a {
   margin: 0 5px;
   padding: 5px;
@@ -522,6 +502,38 @@ nav .socials li:hover .twitter, nav .socials li:focus .twitter {
 }
 nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   color: #0077b5;
+}
+
+.header {
+  background-color: #252f43;
+  height: 100vh;
+  margin-top: 75px;
+}
+.header .flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .imageContainer {
+  margin-top: 7.5%;
+  width: 30%;
+}
+.header .imageContainer img {
+  border-radius: 50%;
+  border: 10px solid #FFF;
+  width: 100%;
+}
+.header button {
+  padding: 15px 20px;
+  margin-top: 25px;
+  border: none;
 }
 
 .about {
@@ -750,4 +762,38 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
 .contact .flexContainer i {
   margin: 5px 10px 5px 0px;
   font-size: 30px;
+}
+
+@media (max-width: 1050px) {
+  nav .navLinks.active {
+    left: 0;
+  }
+  nav .hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  nav ul {
+    position: fixed;
+    left: -100%;
+    top: 80px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    z-index: 2;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
 }

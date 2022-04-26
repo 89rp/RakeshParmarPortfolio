@@ -1,0 +1,29 @@
+@media (max-width: 1050px) {
+
+    nav {
+
+        .navLinks.active{
+            left: 0;
+        }
+
+        .hamburger {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: none;
+            background: none;
+            cursor: pointer;
+            // z-index: 3;
+        }
+
+        ul {
+            position: fixed;
+            left: -100%;
+            top: 80px;
+            flex-direction: column;
+            width: 100%;
+            z-index: 2;
+            transition: 0.5s;
+        }
+    }
+}

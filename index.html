@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9519f6733b.js" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
 </head>
 
 <body>
 
     <header class="header" id="home">
-        
+
         <div class="wrapper">
             <div class="flexContainer">
                 <div class="imageContainer">
@@ -42,13 +41,20 @@
                 <div class="flexContainer">
                     <p class="logo">Rakesh</p>
                     <ul class="navLinks">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#resume">Resume</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li class="menuLink"><a href="#home">Home</a></li>
+                        <li class="menuLink"><a href="#about">About</a></li>
+                        <li class="menuLink"><a href="#skills">Skills</a></li>
+                        <li class="menuLink"><a href="#portfolio">Portfolio</a></li>
+                        <li class="menuLink"><a href="#resume">Resume</a></li>
+                        <li class="menuLink"><a href="#contact">Contact</a></li>
                     </ul>
+
+                    <button class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+
                     <ul class="socials">
                         <!-- add in icons from font-awesome -->
                         <li><a href="#twitter"><i class="fa-brands fa-twitter twitter"></i></a></li>
@@ -182,7 +188,8 @@
                             </div>
                             <div class="textOverlay">
                                 <h3 class="overlayTitle">Beachstays</h3>
-                                <p class="overlayDesc">A multi-page PSD design conversion project, recreating the provided design to pixel perfect accuracy.</p>
+                                <p class="overlayDesc">A multi-page PSD design conversion project, recreating the
+                                    provided design to pixel perfect accuracy.</p>
                                 <p>HTML, CSS, JS</p>
                             </div>
                         </a>
@@ -195,7 +202,8 @@
                             </div>
                             <div class="textOverlay">
                                 <h3 class="overlayTitle">Event Finder</h3>
-                                <p class="overlayDesc">API project using the Ticketmaster API to provide linstings of upcoming events.</p>
+                                <p class="overlayDesc">API project using the Ticketmaster API to provide linstings of
+                                    upcoming events.</p>
                                 <p>HTML, CSS, JS</p>
                             </div>
                         </a>
@@ -350,6 +358,7 @@
             </div>
             <!--.wrapper END-->
         </section>
-
     </main>
 </body>
+<script src="./script.js"></script>
+</html>
