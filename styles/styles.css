@@ -624,6 +624,9 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
 .skills .topRow .skillBox:hover .react, .skills .topRow .skillBox:focus .react, .skills .bottomRow .skillBox:hover .react, .skills .bottomRow .skillBox:focus .react {
   color: #61DBFB;
 }
+.skills .topRow .skillBox:hover .team, .skills .topRow .skillBox:focus .team, .skills .bottomRow .skillBox:hover .team, .skills .bottomRow .skillBox:focus .team {
+  color: #006e25;
+}
 .skills .topRow .skillBox i, .skills .bottomRow .skillBox i {
   font-size: 50px;
   margin-bottom: 15px;
