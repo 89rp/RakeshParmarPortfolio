@@ -6,13 +6,43 @@
 
         .contactText {
             width: 33%;
-        }            
+            
+            a {
+                transition: all 0.3s ease-in-out;
+                
+                &:hover, &:focus {
+                    color: #006bff
+                    }
+            }
+                }
+            
 
         li {
 
             margin: 10px 0px;
-            
-            
+            transition: all 0.3s ease-in-out;
+
+            &:hover, &:focus {
+                transform: scale(1.1);
+
+                .gitHub {
+                    color: #333
+                }
+
+                .insta {
+                    color: #bc2a8d
+                }
+
+                .twitter {
+                    color: #1DA1F2;
+                }
+
+                .linkedIn {
+                    color: #0077b5
+                }
+
+            }
+
             a {
                 padding: 10px 0px;
             }

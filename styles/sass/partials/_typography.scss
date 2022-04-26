@@ -29,6 +29,12 @@ body {
             @include font($poppins, $regular, $white);
         }
     }
+
+    button {
+        @include fontSize(18);
+        color: $white;
+        text-transform: uppercase;
+    }
 }
 
 nav {
@@ -62,7 +68,10 @@ nav {
 
 .about{
 
-    
+    .aboutText {
+        line-height: 2rem;
+    }
+
     .aboutIntro {
         @include fontSize(30);
         @include font($poppins, $regular, $blue);
@@ -103,6 +112,7 @@ nav {
 
         p {
             @include font($poppins, $regular, $white);
+            line-height: 1.5rem;
         }
     }
 }
@@ -122,6 +132,11 @@ nav {
     h5 {
         @include fontSize(20);
         @include font($poppins, $regular, $blue);
+    }
+
+    button {
+        color: $white;
+        text-transform: uppercase;
     }
 
 }

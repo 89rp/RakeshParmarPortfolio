@@ -261,6 +261,12 @@ body {
   font-weight: 400;
   color: #FFF;
 }
+.header button {
+  font-size: 18px;
+  font-size: 0.9rem;
+  color: #FFF;
+  text-transform: uppercase;
+}
 
 nav p {
   font-family: "Poppins", sans-serif;
@@ -289,6 +295,9 @@ nav .socials a {
   color: #252f43;
 }
 
+.about .aboutText {
+  line-height: 2rem;
+}
 .about .aboutIntro {
   font-size: 30px;
   font-size: 1.5rem;
@@ -328,6 +337,7 @@ nav .socials a {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #FFF;
+  line-height: 1.5rem;
 }
 
 .resume h3 {
@@ -350,6 +360,10 @@ nav .socials a {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #252f43;
+}
+.resume button {
+  color: #FFF;
+  text-transform: uppercase;
 }
 
 .contact h4 {
@@ -537,7 +551,14 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
 .header button {
   padding: 15px 20px;
   margin-top: 25px;
-  border: none;
+  border: 2px solid #FFF;
+  background-color: #252f43;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.header button:hover, .header button:focus {
+  background-color: #FFF;
+  color: #252f43;
 }
 
 .about {
@@ -548,7 +569,7 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   border-bottom: 4px solid #45569f;
 }
 .about .aboutText {
-  margin-bottom: 50px;
+  margin: 50px 0px;
 }
 .about .interests .icons {
   display: -webkit-box;
@@ -557,6 +578,7 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 50px 0px;
 }
 .about .interests li {
   display: -webkit-box;
@@ -715,6 +737,9 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 .resume .border {
   border-left: 3px solid #45569f;
@@ -745,7 +770,14 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   margin-left: 40%;
   margin-top: 50px;
   padding: 15px 20px;
-  border: none;
+  border: 2px solid #252f43;
+  background-color: #252f43;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.resume button:hover, .resume button:focus {
+  background-color: #f8f9fa;
+  color: #252f43;
 }
 
 .contact .flexContainer {
@@ -758,8 +790,33 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
 .contact .flexContainer .contactText {
   width: 33%;
 }
+.contact .flexContainer .contactText a {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.contact .flexContainer .contactText a:hover, .contact .flexContainer .contactText a:focus {
+  color: #006bff;
+}
 .contact .flexContainer li {
   margin: 10px 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.contact .flexContainer li:hover, .contact .flexContainer li:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.contact .flexContainer li:hover .gitHub, .contact .flexContainer li:focus .gitHub {
+  color: #333;
+}
+.contact .flexContainer li:hover .insta, .contact .flexContainer li:focus .insta {
+  color: #bc2a8d;
+}
+.contact .flexContainer li:hover .twitter, .contact .flexContainer li:focus .twitter {
+  color: #1DA1F2;
+}
+.contact .flexContainer li:hover .linkedIn, .contact .flexContainer li:focus .linkedIn {
+  color: #0077b5;
 }
 .contact .flexContainer li a {
   padding: 10px 0px;
@@ -772,6 +829,7 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
 @media (max-width: 1050px) {
   nav .navLinks.active {
     left: 0;
+    top: 75px;
   }
   nav .hamburger {
     display: -webkit-box;
@@ -800,6 +858,10 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
     z-index: 2;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    background-color: white;
+  }
+  nav ul li {
+    margin: 20px;
   }
 }
 @media (max-width: 900px) {
@@ -851,7 +913,7 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
     margin-left: 0px;
   }
   .resume button {
-    margin-left: 30%;
+    margin-left: 35%;
   }
 
   .contact .flexContainer {
@@ -884,5 +946,9 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   }
   .portfolio .project .textOverlay p {
     padding: 0px;
+  }
+
+  .resume button {
+    margin-left: 25%;
   }
 }

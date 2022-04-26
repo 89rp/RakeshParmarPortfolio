@@ -23,6 +23,13 @@
     button {
         padding: 15px 20px;
         margin-top: 25px;
-        border: none;
+        border: 2px solid $white;
+        background-color: $blue;
+        transition: all 0.3s ease-in-out;
+
+        &:hover, &:focus {
+            background-color: $white;
+            color: $blue;
+        }
     }
 }
