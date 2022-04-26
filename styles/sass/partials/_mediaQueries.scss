@@ -27,3 +27,74 @@
         }
     }
 }
+
+@media (max-width: 900px) {
+
+    .header {
+
+        .imageContainer {
+
+            img {
+                border: 8px solid white;
+            }
+        }
+    }
+
+    .skills{
+
+        .topRow, .bottomRow {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0px;
+
+            .skillBox {
+                margin: 20px;
+                width: 40%;
+
+                i {
+                    font-size: 90px;
+                }
+            }
+        }
+    }
+
+    .portfolio {
+
+        .gallery {
+            flex-direction: column;
+            align-items: center;
+
+            .project {
+                width: 75%;
+            }
+        }
+    }
+
+    .resume {
+
+        .flexContainer {
+            flex-direction: column;
+        }
+
+        .experience {
+            margin-left: 0px;
+        }
+
+        button {
+            margin-left: 30%;
+        }
+    }
+
+    .contact {
+
+        .flexContainer {
+            flex-direction: column;
+            align-items: center;
+
+            .contactText, .contactInfo, .links {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}

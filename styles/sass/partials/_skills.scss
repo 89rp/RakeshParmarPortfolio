@@ -19,12 +19,13 @@
             justify-content: center;
             width: 30%;
             margin: 0px 5px;
-            transition: all 0.5s ease-in-out;
+            padding: 20px;
+            border: 0.5px solid $blue;
+            transition: all 0.2s ease-in-out;
 
 
 
             &:hover, &:focus {
-                border: 0.5px solid $blue;
                 box-shadow: 15px 15px 0px $blue;
 
                 .html {

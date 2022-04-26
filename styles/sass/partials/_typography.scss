@@ -129,7 +129,7 @@ nav {
 .contact {
 
     h4 {
-        @include fontSize(25);
+        @include fontSize(20);
         @include font($poppins, $semiBold, $blue);
     }
 
@@ -137,5 +137,9 @@ nav {
     a {
         color: $black;
         text-decoration: none;
+    }
+
+    p, li {
+        @include fontSize(18)
     }
 }

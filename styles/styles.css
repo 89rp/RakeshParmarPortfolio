@@ -353,8 +353,8 @@ nav .socials a {
 }
 
 .contact h4 {
-  font-size: 25px;
-  font-size: 1.25rem;
+  font-size: 20px;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #252f43;
@@ -362,6 +362,10 @@ nav .socials a {
 .contact a {
   color: #212529;
   text-decoration: none;
+}
+.contact p, .contact li {
+  font-size: 18px;
+  font-size: 0.9rem;
 }
 
 html {
@@ -601,11 +605,12 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
           justify-content: center;
   width: 30%;
   margin: 0px 5px;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  padding: 20px;
+  border: 0.5px solid #252f43;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .skills .topRow .skillBox:hover, .skills .topRow .skillBox:focus, .skills .bottomRow .skillBox:hover, .skills .bottomRow .skillBox:focus {
-  border: 0.5px solid #252f43;
   -webkit-box-shadow: 15px 15px 0px #252f43;
           box-shadow: 15px 15px 0px #252f43;
 }
@@ -753,9 +758,6 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
 .contact .flexContainer .contactText {
   width: 33%;
 }
-.contact .flexContainer .contactInfo, .contact .flexContainer .links {
-  margin: 0px 60px;
-}
 .contact .flexContainer li {
   margin: 10px 0px;
 }
@@ -764,7 +766,7 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
 }
 .contact .flexContainer i {
   margin: 5px 10px 5px 0px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 @media (max-width: 1050px) {
@@ -798,5 +800,68 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
     z-index: 2;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+  }
+}
+@media (max-width: 900px) {
+  .header .imageContainer img {
+    border: 8px solid white;
+  }
+
+  .skills .topRow, .skills .bottomRow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 0px;
+  }
+  .skills .topRow .skillBox, .skills .bottomRow .skillBox {
+    margin: 20px;
+    width: 40%;
+  }
+  .skills .topRow .skillBox i, .skills .bottomRow .skillBox i {
+    font-size: 90px;
+  }
+
+  .portfolio .gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .portfolio .gallery .project {
+    width: 75%;
+  }
+
+  .resume .flexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .resume .experience {
+    margin-left: 0px;
+  }
+  .resume button {
+    margin-left: 30%;
+  }
+
+  .contact .flexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact .flexContainer .contactText, .contact .flexContainer .contactInfo, .contact .flexContainer .links {
+    width: 100%;
+    text-align: center;
   }
 }

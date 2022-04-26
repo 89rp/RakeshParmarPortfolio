@@ -1,16 +1,12 @@
 .contact {
+
     .flexContainer {
         display: flex;
         justify-content: space-around;
-        // text-align: center;
 
         .contactText {
             width: 33%;
         }            
-        
-        .contactInfo, .links {
-            margin: 0px 60px;
-            }
 
         li {
 
@@ -24,7 +20,7 @@
         
         i {
             margin: 5px 10px 5px 0px;
-            font-size: 30px;
+            font-size: 20px;
         }
     }
 
