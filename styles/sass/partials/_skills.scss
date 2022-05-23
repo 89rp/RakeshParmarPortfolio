@@ -21,35 +21,41 @@
             margin: 0px 5px;
             padding: 20px;
             border: 0.5px solid $blue;
-            transition: all 0.2s ease-in-out;
-
-
-
+            transition: all 0.5s ease-in-out;
+            
+            
+            
             &:hover, &:focus {
                 box-shadow: 15px 15px 0px $blue;
-
+                
                 .html {
-                    color: #f06529
+                    color: #f06529;
+                    transition: all 0.5s ease-in-out;
                 }
-
+                
                 .css {
-                    color: #2965f1
+                    color: #2965f1;
+                    transition: all 0.5s ease-in-out;
                 }
-
+                
                 .js {
-                    color: #f0db4f
+                    color: #f0db4f;
+                    transition: all 0.5s ease-in-out;
                 }
-
+                
                 .sass {
-                    color: #cc6699
+                    color: #cc6699;
+                    transition: all 0.5s ease-in-out;
                 }
-
+                
                 .react {
-                    color: #61DBFB
+                    color: #61DBFB;
+                    transition: all 0.5s ease-in-out;
                 }
-
+                
                 .team {
-                    color:#006e25
+                    color:#006e25;
+                    transition: all 0.5s ease-in-out;
                 }
 
             }

@@ -632,8 +632,8 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   margin: 0px 5px;
   padding: 20px;
   border: 0.5px solid #252f43;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .skills .topRow .skillBox:hover, .skills .topRow .skillBox:focus, .skills .bottomRow .skillBox:hover, .skills .bottomRow .skillBox:focus {
   -webkit-box-shadow: 15px 15px 0px #252f43;
@@ -641,21 +641,33 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
 }
 .skills .topRow .skillBox:hover .html, .skills .topRow .skillBox:focus .html, .skills .bottomRow .skillBox:hover .html, .skills .bottomRow .skillBox:focus .html {
   color: #f06529;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .skills .topRow .skillBox:hover .css, .skills .topRow .skillBox:focus .css, .skills .bottomRow .skillBox:hover .css, .skills .bottomRow .skillBox:focus .css {
   color: #2965f1;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .skills .topRow .skillBox:hover .js, .skills .topRow .skillBox:focus .js, .skills .bottomRow .skillBox:hover .js, .skills .bottomRow .skillBox:focus .js {
   color: #f0db4f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .skills .topRow .skillBox:hover .sass, .skills .topRow .skillBox:focus .sass, .skills .bottomRow .skillBox:hover .sass, .skills .bottomRow .skillBox:focus .sass {
   color: #cc6699;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .skills .topRow .skillBox:hover .react, .skills .topRow .skillBox:focus .react, .skills .bottomRow .skillBox:hover .react, .skills .bottomRow .skillBox:focus .react {
   color: #61DBFB;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .skills .topRow .skillBox:hover .team, .skills .topRow .skillBox:focus .team, .skills .bottomRow .skillBox:hover .team, .skills .bottomRow .skillBox:focus .team {
   color: #006e25;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .skills .topRow .skillBox i, .skills .bottomRow .skillBox i {
   font-size: 50px;
