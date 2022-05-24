@@ -3,6 +3,10 @@
     background-color: $lightGrey;
     padding: 75px 0px;
 
+    .education, .experience {
+        width: 50%;
+    }
+
 
     .experience {
         margin-left: 50px;
