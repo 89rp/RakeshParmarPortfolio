@@ -3,6 +3,21 @@
     margin: 75px 0px 75px 0px;
     padding: 75px 0px 75px 0px;
 
+    button {
+        margin-left: 40%;
+        margin-top: 50px;
+        color: $white;
+        padding: 15px 20px;
+        border: 2px solid $blue;
+        background-color: $blue;
+        transition: all 0.3s ease-in-out;
+
+        &:hover, &:focus {
+            background-color: $white;
+            color: $blue;
+        }
+    }
+
     .aboutIntro {
 
         .aboutName {

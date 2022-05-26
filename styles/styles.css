@@ -572,6 +572,20 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   margin: 75px 0px 75px 0px;
   padding: 75px 0px 75px 0px;
 }
+.about button {
+  margin-left: 40%;
+  margin-top: 50px;
+  color: #FFF;
+  padding: 15px 20px;
+  border: 2px solid #252f43;
+  background-color: #252f43;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.about button:hover, .about button:focus {
+  background-color: #FFF;
+  color: #252f43;
+}
 .about .aboutIntro .aboutName {
   border-bottom: 4px solid #45569f;
 }
@@ -912,22 +926,25 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
     border: 8px solid white;
   }
 
+  .about button {
+    margin-left: 35%;
+  }
+
   .skills .topRow, .skills .bottomRow {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 0px;
   }
   .skills .topRow .skillBox, .skills .bottomRow .skillBox {
     margin: 20px;
     width: 40%;
   }
-  .skills .topRow .skillBox i, .skills .bottomRow .skillBox i {
-    font-size: 90px;
+  .skills .topRow .skillBox p, .skills .bottomRow .skillBox p {
+    font-size: 18px;
+    font-size: 0.9rem;
   }
 
   .portfolio .gallery {
@@ -941,19 +958,6 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   }
   .portfolio .gallery .project {
     width: 75%;
-  }
-
-  .resume .flexContainer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .resume .experience {
-    margin-left: 0px;
-  }
-  .resume button {
-    margin-left: 35%;
   }
 
   .contact .flexContainer {
