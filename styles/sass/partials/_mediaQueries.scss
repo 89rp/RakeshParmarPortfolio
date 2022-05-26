@@ -32,6 +32,16 @@
             }
         }
     }
+
+    .portfolio {
+
+        .gallery {
+            
+            .project {
+                width: 40%;
+            }
+        }
+    }
 }
 
 @media (max-width: 900px) {
@@ -72,6 +82,10 @@
                 }
             }
         }
+
+        button {
+            margin-left: 25%;
+        }
     }
 
     .portfolio {
@@ -81,10 +95,22 @@
             align-items: center;
 
             .project {
-                width: 75%;
+                width: 50%;
+
+                .textOverlay {
+                    h3 {
+                        @include fontSize(30);
+                    }
+        
+                    p {
+                        @include fontSize(20);
+                }
+            }
             }
         }
-    }
+
+
+}
 
     .contact {
 
@@ -92,10 +118,11 @@
             flex-direction: column;
             align-items: center;
 
-            .contactText, .contactInfo, .links {
-                width: 100%;
-                text-align: center;
+            .infoContainer, .formContainer {
+                width: 90%;
+                margin: 2rem 0;
             }
+
         }
     }
 }
@@ -112,6 +139,14 @@
         }
     }
 
+    .about {
+
+        button {
+            margin-left: 25%;
+        }
+
+    }
+
     .skills {
 
         .topRow, .bottomRow {
@@ -125,24 +160,22 @@
 
     .portfolio{
 
-        .project {
+        .gallery {
 
-            .textOverlay{
-
-                h3 {
-                    @include fontSize(20)
-                }
+            
+            .project {
                 
-                p {
-                    padding: 0px;
+                .textOverlay{
+                    
+                    h3 {
+                        @include fontSize(20)
+                    }
+                    
+                    p {
+                        @include fontSize(18);
+                    }
                 }
             }
-        }
-    }
-
-    .resume {
-        button {
-            margin-left: 25%;
         }
     }
 }

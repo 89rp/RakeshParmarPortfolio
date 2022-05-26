@@ -84,6 +84,12 @@ nav {
     .interests {
         @include font($poppins, $regular, $blue)
     }
+
+    
+    button {
+        color: $white;
+        text-transform: uppercase;
+    }
 }
 
 .skills {
@@ -119,48 +125,46 @@ nav {
     }
 }
 
-.resume {
-
-    h3 {
-        @include fontSize(45);
-        @include font($poppins, $semiBold, $blue);
-    }
-
-    h4 {
-        @include fontSize(30);
-        @include font($poppins, $semiBold, $blue);
-    }
-
-    h5 {
-        @include fontSize(20);
-        @include font($poppins, $regular, $blue);
-    }
-
-    p {
-        line-height: 2rem;
-    }
-
-    button {
-        color: $white;
-        text-transform: uppercase;
-    }
-
-}
-
 .contact {
 
-    h4 {
-        @include fontSize(20);
-        @include font($poppins, $semiBold, $blue);
+    h3 {
+        @include fontSize(30);
+        @include font($poppins, $semiBold, $white);
     }
 
+    h4 {
+        @include font($poppins, $semiBold, $white);
+    }
 
     a {
-        color: $black;
+        color: $white;
         text-decoration: none;
     }
 
     p, li {
+        @include font($poppins, $regular, $white);
         @include fontSize(18)
+    }
+
+    i {
+        @include fontSize(30);
+    }
+
+    label {
+        @include font($poppins, $regular, $white);
+    }
+    
+    input {
+        @include font($poppins, $regular, $white);
+    }
+
+    textarea {
+        @include font($poppins, $regular, $white);
+    }
+
+    button {
+        @include fontSize(18);
+        color: $white;
+        text-transform: uppercase;
     }
 }
