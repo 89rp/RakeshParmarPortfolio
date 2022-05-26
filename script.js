@@ -23,3 +23,11 @@ const closeMenu = function() {
 
 // forEach loop that adds eventlistener for when a link in the nav is clicked to call the callback function closeMenu 
 menuLink.forEach(link => link.addEventListener("click", closeMenu));
+
+const contactForm = document.querySelector(".contactForm")
+
+const handleForm = (event) => {
+    event.preventDefault();
+}
+
+contactForm.addEventListener('submit', handleForm)
