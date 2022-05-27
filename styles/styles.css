@@ -1049,6 +1049,9 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   .contact .flexContainer .booking {
     margin: 2rem 0;
   }
+  .contact .flexContainer input {
+    text-align: center;
+  }
 }
 @media (max-width: 600px) {
   .header .textContainer h1 {
