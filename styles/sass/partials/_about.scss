@@ -4,7 +4,6 @@
     padding: 75px 0px 75px 0px;
 
     button {
-        margin-left: 40%;
         margin-top: 50px;
         color: $white;
         padding: 15px 20px;
@@ -16,6 +15,11 @@
             background-color: $white;
             color: $blue;
         }
+    }
+
+    .buttonFlex {
+        display: flex;
+        justify-content: center;
     }
 
     .aboutIntro {

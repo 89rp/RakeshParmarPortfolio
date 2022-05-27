@@ -581,7 +581,6 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
   padding: 75px 0px 75px 0px;
 }
 .about button {
-  margin-left: 40%;
   margin-top: 50px;
   color: #FFF;
   padding: 15px 20px;
@@ -593,6 +592,14 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
 .about button:hover, .about button:focus {
   background-color: #FFF;
   color: #252f43;
+}
+.about .buttonFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .about .aboutIntro .aboutName {
   border-bottom: 4px solid #45569f;
@@ -984,10 +991,6 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
     border: 8px solid white;
   }
 
-  .about button {
-    margin-left: 35%;
-  }
-
   .skills .topRow, .skills .bottomRow {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1018,7 +1021,7 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
             align-items: center;
   }
   .portfolio .gallery .project {
-    width: 50%;
+    width: 60%;
   }
   .portfolio .gallery .project .textOverlay h3 {
     font-size: 30px;
@@ -1037,9 +1040,13 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
   .contact .flexContainer .infoContainer, .contact .flexContainer .formContainer {
     width: 90%;
+    margin: 2rem 0;
+  }
+  .contact .flexContainer .booking {
     margin: 2rem 0;
   }
 }
@@ -1049,14 +1056,13 @@ nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
     font-size: 2.5rem;
   }
 
-  .about button {
-    margin-left: 25%;
-  }
-
   .skills .topRow .skillBox, .skills .bottomRow .skillBox {
     width: 60%;
   }
 
+  .portfolio .gallery .project {
+    width: 75%;
+  }
   .portfolio .gallery .project .textOverlay h3 {
     font-size: 20px;
     font-size: 1rem;

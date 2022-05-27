@@ -58,14 +58,6 @@
         }
     }
 
-    .about {
-
-        button {
-            margin-left: 35%;
-        }
-
-    }
-
     .skills{
 
         .topRow, .bottomRow {
@@ -95,7 +87,7 @@
             align-items: center;
 
             .project {
-                width: 50%;
+                width: 60%;
 
                 .textOverlay {
                     h3 {
@@ -109,7 +101,6 @@
             }
         }
 
-
 }
 
     .contact {
@@ -117,9 +108,14 @@
         .flexContainer {
             flex-direction: column;
             align-items: center;
+            text-align: center;
 
             .infoContainer, .formContainer {
                 width: 90%;
+                margin: 2rem 0;
+            }
+
+            .booking {
                 margin: 2rem 0;
             }
 
@@ -139,14 +135,6 @@
         }
     }
 
-    .about {
-
-        button {
-            margin-left: 25%;
-        }
-
-    }
-
     .skills {
 
         .topRow, .bottomRow {
@@ -164,6 +152,8 @@
 
             
             .project {
+
+                width: 75%;
                 
                 .textOverlay{
                     
