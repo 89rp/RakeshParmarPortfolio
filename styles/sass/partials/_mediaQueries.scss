@@ -139,6 +139,21 @@
         }
     }
 
+    .about {
+        .interests {
+            .icons {
+
+                i {
+                    @include fontSize(30);
+                }
+                
+                li {
+                    @include fontSize(18);
+                } 
+            }
+        }
+    }
+
     .skills {
 
         .topRow, .bottomRow {
